@@ -1,10 +1,5 @@
 import numpy as np
 import math
-# import matplotlib.pyplot as plt
-
-# documentar e separar em classes -> github
-
-# mudar sist. coord. -> diretriz da parábola + assíntotas da hipérbole
 
 def setEquation(equation, a, b, c, d, e, f, gcd, var1, var2):
     equation += f"{round(a,2)}{var1}²" if a != 0 else ""
