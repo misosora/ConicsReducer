@@ -12,8 +12,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
     padding-top: 1.5%;
 }
 
@@ -34,7 +34,7 @@ body {
 
 #main-section {
     width: 90%;
-    margin-top: 2%;
+    margin-top: 0.5%;
     margin-bottom: 4%;
     margin-left: 4%;
     margin-right: 4%;
@@ -44,6 +44,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     height: 45em;
+    border-radius: 40px;
+    background: linear-gradient(to bottom, var(--light-scarlet), var(--dark-scarlet)) no-repeat center center fixed;
 }
 
 #main-footer {
