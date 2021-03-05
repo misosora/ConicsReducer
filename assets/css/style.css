@@ -56,8 +56,9 @@ body {
 #main-footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: left;
+    height: 2em;
+    width: 98%;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-left: 1%;
@@ -65,18 +66,17 @@ body {
     background: linear-gradient(to left, var(--dark-scarlet), var(--light-scarlet)) no-repeat center center fixed;
 }
 
-#main-footer p {
-    padding-top: 0.6%;
+#main-footer a {
+    text-decoration: none;
+    margin-top: 0.57%;
+    margin-left: 0.6%;
     font-size: 1em;
-    color: black;
-}
-
-#main-footer a img {
-    height: 1.8em;
     transition: 0.3s;
+    color: var(--black);
 }
 
-#main-footer a img:hover {
-    transform: scale(1.06);
+#main-footer a:hover {
+    color: var(--light-beige);
+    transform: scale(1.05);
     transition: 0.3s;
 }
