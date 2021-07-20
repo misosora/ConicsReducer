@@ -540,7 +540,7 @@ def main():
     setMatrix(matrix, a, b, c, d, e, f)
 
     # Operações de redução da equação
-    h,k,sin,cos = None,None,None,None
+    h,k,sin,cos = 0,0,0,0
 
     if d != 0 or e != 0:
         a,b,c,d,e,f,h,k = translation(matrix, a, b, c, d, e, f)
