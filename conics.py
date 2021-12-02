@@ -404,14 +404,14 @@ def hyperbola(a, c, f, h, k, sin, cos):
         print(f"Focos: F₁ = ({round(xc1,2)},{round(yc1,2)}); F₂ = ({round(xc2,2)},{round(yc2,2)})")
         print(f"Vértices: A₁ = ({round(xa1,2)},{round(ya1,2)}); A₂ = ({round(xa2,2)},{round(ya2,2)})")
         print(f"Excentricidade: {round(e,2)}")
-        print(f"Assíntotas: {assymp1}; {assymp2}")
+        print(f"Assíntotas: x = {assymp1}; {assymp2}")
     elif y:
         print("\nNo sistema de coordenadas original, com P = (x,y):")
         print(f"Origem: O = ({round(h,2)},{round(k,2)})")
         print(f"Focos: F₁ = ({round(xc1,2)},{round(yc1,2)}); F₂ = ({round(xc2,2)},{round(yc2,2)})")
         print(f"Vértices: A₁ = ({round(xa1,2)},{round(ya1,2)}); A₂ = ({round(xa2,2)},{round(ya2,2)})")
         print(f"Excentricidade: {round(e,2)}")
-        print(f"Assíntotas: Y = {assymp1}; {assymp2}")
+        print(f"Assíntotas: y = {assymp1}; {assymp2}")
 
 def circumference(f):
     print("\nA cônica é uma circunferência.")
