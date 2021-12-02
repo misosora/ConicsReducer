@@ -378,7 +378,7 @@ def hyperbola(a, c, f, h, k, sin, cos):
     elif y:
         origAssymp = newA/newB
 
-    """
+
     if sin or cos:
         l = (origAssymp*cos - sin)/(cos - origAssymp*sin)
         assymp1 += f"y = {round(l,2)}x"
@@ -396,7 +396,7 @@ def hyperbola(a, c, f, h, k, sin, cos):
     else:
         assymp1 += f"y = {round(origAssymp,2)}x"
         assymp2 += f"y = {-round(origAssymp,2)}x"
-    """
+
 
     if x:
         print("\nNo sistema de coordenadas original, com P = (x,y):")
